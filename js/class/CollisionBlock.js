@@ -8,7 +8,7 @@ class CollisionBlock {
     }
 
     render() {
-        scene.fillStyle = 'rgb(255 0 0 / 50%)'
+        scene.fillStyle = 'rgb(0 0 255 / 0%)'
         scene.fillRect(this.pos.x, this.pos.y, this.width, this.height)
     }
 }

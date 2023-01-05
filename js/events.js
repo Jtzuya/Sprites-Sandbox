@@ -5,7 +5,7 @@ export default function eventz() {
         switch(e.key) {
             case ' ':
                 // console.log('I pressed spacebar')
-                if(p1.velocity.y === 0) p1.velocity.y = -20
+                if(p1.velocity.y === 0) p1.velocity.y = -15
                 break
             case 'a':
                 keys.a.pressed = true
