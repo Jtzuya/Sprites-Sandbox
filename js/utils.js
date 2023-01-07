@@ -16,7 +16,7 @@ Array.prototype.createObjectsFrom2d = function() {
         let row = this[i]
         
         for(var j = 0; j < row.length; j++) {
-            if(row[j] === 292) {
+            if(row[j] === 292 || row[j] === 250) {
                 objects.push(new CollisionBlock({
                     pos: { 
                         x: j * 64,

@@ -10,4 +10,6 @@
 - Sprite Animation  
 - Hitbox Implementation
 - Sprite Swapping
+- Entering Doors
+- Change levels
 ```  
